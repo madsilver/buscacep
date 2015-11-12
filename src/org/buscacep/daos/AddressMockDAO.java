@@ -4,19 +4,19 @@ import java.util.ArrayList;
 
 import org.buscacep.models.Address;
 
-public class AddressDAO {
+public class AddressMockDAO {
 	
 	private ArrayList<Address> enderecos;
 
 	/**
 	 * Constructor
 	 */
-	public AddressDAO(){
+	public AddressMockDAO(){
 		
 		enderecos = new ArrayList<>();
-		
-		enderecos.add(new Address("Avenida Emilio Carlos","Vila Maia","Guarujá","São Paulo","11410140"));
-		enderecos.add(new Address("Rua Serra de Botucatu","Tatuapé","São Paulo","São Paulo","03356000"));
+		enderecos.add(new Address("Avenida Emilio Carlos","","","Vila Maia","Guaruja","Sao Paulo","11410140"));
+		enderecos.add(new Address("Rua Sergipe","","","Jardim Cunhambebe","Guaruja","Sao Paulo","11450110"));
+		enderecos.add(new Address("Rua Serra de Botucatu","","","Tatuape","Sao Paulo","Sao Paulo","03356000"));
 	}
 	
 	/**
