@@ -22,7 +22,7 @@ CREATE TABLE `address` (
   `state` varchar(45) DEFAULT NULL,
   `zipcode` varchar(8) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+);
 
 
 
