@@ -10,7 +10,7 @@ Ao depositar o projeto no servidor é possível acessar um template no link http
 
 ## Acesso via Javascript
 
-<src="http://localhost:8080/buscacep/findAddress?callback=functionCall" type="application/javascript"> </>
+script src="http://localhost:8080/buscacep/findAddress?callback=functionCall" type="application/javascript"
 functionCall(zipcode){
     console.log(zipcode.address);
 }
