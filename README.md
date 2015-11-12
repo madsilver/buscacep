@@ -8,7 +8,7 @@ BuscaCep é um webservice para consultar Códigos de Endereçamento Postal (CEP)
 
 ## Acesso via Javascript
 
-<script src="http://localhost:8080/buscacep/findAddress?callback=functionCall" type="application/javascript"> </script>
+<src="http://localhost:8080/buscacep/findAddress?callback=functionCall" type="application/javascript"> </>
 functionCall(zipcode){
     console.log(zipcode.address);
 }
